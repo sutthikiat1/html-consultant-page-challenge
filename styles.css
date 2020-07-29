@@ -1,0 +1,185 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFFFFF;
+    background-color: #181719;
+    max-width: 75%;
+    margin : 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+
+.header .logo {
+    font-size: 26px;
+    border: #FFFFFF 1px solid;
+    padding : 10px;
+    max-width: 100%;
+}
+
+.header .menu {
+    width: 50%;
+}
+
+.header ul {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header ul li {
+    margin-right : 10px;
+    list-style-type: none;
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 7vw;
+    width: 100%;
+    max-height: 80vh;
+    justify-content: space-between;
+}
+
+.body .detail {
+    max-width: 25%;
+    font-size: 30px;
+}
+.body .detail h1 {
+    padding-bottom: 40px;
+}
+
+.body .detail h5 {
+    font-size: 25px;
+    color: #e1e1e1;
+    padding-bottom: 50px;
+}
+
+.body .img {
+    max-width: 60%;
+    margin-left: 10%;
+    text-align: right;
+    position: relative;
+}
+
+.body .img img{
+    max-width: 90%;
+    border-radius: 5px;
+}
+
+.body .card {
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: -12%;
+    background-color: #181719;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding : 20px;
+    overflow: hidden;
+}
+
+.body .card .img-profile  {
+    max-width: 20%;
+    text-align: left;
+}
+
+.body .card .img-profile img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.body .card .profile  {
+    max-width: 80%;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.bars {
+    display: none;
+}
+
+.bars-menu {
+    display: none;
+    max-width: 100vh;
+    height: 100vh;
+    padding-top: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin : 0 auto;
+}
+
+.bars-menu .close{
+    display: none;
+    padding-top: 40px;
+}
+
+.footer {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  
+
+@media only screen and (max-width: 1024px) {
+    body {
+        min-width: 90%;
+     
+    }
+
+    .header .menu  {
+        display: none;
+    } 
+
+    .bars-menu .close{
+        font-size: 30px;
+        position: absolute;
+        top: -50px;
+        right: 50px;
+    }
+
+    .bars {
+        display: block;
+        font-size: 8vw;
+    }
+    
+    .body {
+        height: 100vh;
+    }
+  
+    .body .detail {
+        min-width: 100%;
+    }
+
+    .body .img {
+        margin-left: 0;
+        min-width: 100%;
+        padding-bottom: 100px;
+    }
+
+    .body .img img{
+        max-width: 100%;
+    }
+
+    .body .card {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;        
+        width: 95%;
+    }
+
+  }
