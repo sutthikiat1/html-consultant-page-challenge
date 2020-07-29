@@ -2,6 +2,8 @@
 
 # [Interior Consultant Page]
 
+## Link Demo : https://interior-consultant-challenge.netlify.app/
+
 # Challenge:
 
 > Create a homepage following the design. The page should be responsive. Don’t look at the existing solution. Fulfill user stories below: <br />
@@ -19,5 +21,3 @@
 > On mobile, when I select the hamburger menu, I can see a navigation <br />
 
 **Deploy Production By : Netlify**
-
-## Link Demo : https://interior-consultant-challenge.netlify.app/
